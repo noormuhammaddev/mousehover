@@ -1,0 +1,36 @@
+.menu {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  transition: 0.3s;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #1391a9;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  z-index: 4;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  margin-top: -9px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
